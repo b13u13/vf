@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 ruby '2.1.5'
 gem 'rails', '4.1.8'
-gem 'bootstrap-sass'
+gem 'bootstrap-sass', '~> 3.3.6'
 gem 'faker'
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
@@ -40,7 +40,9 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'coffee-script-source'
-gem 'font-awesome-rails', '~> 4.5', '>= 4.5.0.1'
+gem 'russian', '~> 0.6.0'
+gem 'rails-i18n', '~> 4.0', '>= 4.0.8'
+
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
