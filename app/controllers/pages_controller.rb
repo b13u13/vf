@@ -6,4 +6,10 @@ class PagesController < ApplicationController
   def contact
   end
 
+  def gallery
+  end
+
+  def calendar
+  end
+
 end

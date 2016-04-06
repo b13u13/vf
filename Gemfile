@@ -42,7 +42,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'coffee-script-source'
 gem 'russian', '~> 0.6.0'
 gem 'rails-i18n', '~> 4.0', '>= 4.0.8'
-
+gem 'fullcalendar-rails'
+gem 'momentjs-rails'
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin]

@@ -10,6 +10,7 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  */
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
@@ -86,7 +87,7 @@
 
 
 /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-.row.content {height: 450px}
+.row.content {height: auto}
 
 
 
@@ -98,7 +99,7 @@
 }
 
 #vk_groups{
-  padding-top: 10px;
+  padding: 15px
 }
 
 /* On small screens, set height to 'auto' for sidenav and grid */
@@ -109,8 +110,5 @@
   }
   .row.content {height:auto;}
 }
-
-
-
 
 
