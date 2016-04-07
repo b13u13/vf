@@ -15,4 +15,6 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require fullcalendar
+//= require moment
+//= require bootstrap-datepicker
 //= require_tree .
