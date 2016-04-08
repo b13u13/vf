@@ -17,4 +17,5 @@
 //= require fullcalendar
 //= require moment
 //= require bootstrap-datepicker
+//= require bootstrap-datepicker/locales/bootstrap-datepicker.ru.js
 //= require_tree .
