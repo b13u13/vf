@@ -1,8 +1,16 @@
-<input type="text" class='datepicker' >
 
-<script type="text/javascript">
-    $(document).ready(function(){
-        $('.datepicker').datepicker();
+<div class="datepicker"></div>
+
+<script >
+    $(function() {
+        $('.datepicker').datepicker({
+            language: "ru",
+            todayHighlight: true,
+            daysOfWeekHighlighted: "0,6",
+            todayBtn: true,
+        });
     });
+
+
 </script>
 
