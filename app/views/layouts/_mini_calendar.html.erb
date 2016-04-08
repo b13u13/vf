@@ -1,10 +1,15 @@
 
-<div id="datepicker"></div>
+<div class="datepicker"></div>
 
-<script >
-    jQuery(document).ready(function(){
-        jQuery('#datepicker').datepicker();
-    });
+<script type="text/javascript">
+
+         $('.datepicker').datepicker({
+            language: "ru",
+            todayHighlight: true,
+            daysOfWeekHighlighted: "0,6",
+            todayBtn: true,
+        });
+
 
 
 </script>
