@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
-ruby '2.1.5'
-gem 'rails', '4.1.8'
+ruby '2.2.4'
+gem 'rails', '4.2.6'
 gem 'bootstrap-sass'
 gem 'faker'
 gem 'will_paginate'
@@ -45,6 +45,7 @@ gem 'rails-i18n', '~> 4.0', '>= 4.0.8'
 gem 'fullcalendar-rails'
 gem 'momentjs-rails'
 gem 'bootstrap-datepicker-rails', '~> 1.6', '>= 1.6.0.1'
+
 
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
